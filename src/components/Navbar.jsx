@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "60px" }} />
+        <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
       </div>
 
       {/* {menu} */}
@@ -89,7 +89,7 @@ const Navbar = () => {
       </ul>
 
       {/* {Social icons} */}
-      <div className="hidden lg:flex flex fixed flex-col top-[35%] left-0">
+      <div className="hidden  lg:flex flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
             {" "}
@@ -101,20 +101,11 @@ const Navbar = () => {
               <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DA1F2]">
-            {" "}
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="https://twitter.com/Abhijeet7443?t=6JbO9EMYnLi3cPZ6sPwJ2w&s=08"
-            >
-              Twitter
-              <TwitterIcon size={30} />
-            </a>
-          </li>
+          
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             {" "}
             <a
-              className="flex justify-between items-center w-full text-gray-300 "
+              className="flex justify-between items-center w-full text-gray-300  "
               href="https://hashnode.com/@AbhijeetRanjan"
             >
               Hashnode
@@ -131,16 +122,7 @@ const Navbar = () => {
               <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            {" "}
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href=""
-            >
-              Email
-              <EmailIcon size={30} />
-            </a>
-          </li>
+          
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             {" "}
             <a
